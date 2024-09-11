@@ -27,7 +27,19 @@ button {
     font-size: 1.2rem;
     border-radius: 4px;
     cursor: pointer;
+   
 }
+
+.buttons {
+    
+      margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.2rem;
+    
+}
+
 
 button:hover {
     background-color: #0069D9;
