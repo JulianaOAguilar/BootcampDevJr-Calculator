@@ -12,8 +12,8 @@
         <object data="calculate_48.svg" type="image/svg+xml"></object>
             <h1> Calculadora </h1>
            
-            <input id="num1" type="number" />
-            <input id="num2" type="number" />
+            <input id="num1" type="number" placeholder="Digite um número:" />
+            <input id="num2" type="number" placeholder="Digite um número:"/>
             <div class="buttons">
                 <button onclick="calc('+')"> + </button>
                 <button onclick="calc('-')"> - </button>
@@ -21,13 +21,17 @@
                 <button onclick="calc('/')"> / </button>
             </div>
            
-            <input id="result" type="text" readonly />
+            <input id="result" type="text" readonly placeholder="0.0" />
      </div>
-
-         <div id="history" class="history">   
-         </div>
+     <div class="conteiner-history">
+        <div class="title-h"> Histórico: </div>
+        <div class="dez-h"> 10 ultimas operações: </div>
+        <div id="history" class="history">   
+        </div>
+    </div>
+    </div>
+         
         
-
     </div>
     <script src="calculator.js"></script>
     </body>
