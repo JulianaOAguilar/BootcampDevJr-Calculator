@@ -9,7 +9,7 @@ input {
     font-size: 1.2em;
     margin: 15px 70px;
     border-radius: 5px;
-    text-align: right;
+    text-align: left;
 }   
 
 input[type=number]:focus {
